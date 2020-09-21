@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    color: rgb(255, 253, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-c {
+    display: flex;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 100px;
+    font-weight: normal;
+}
+
+.b-text {
+    font-size: 5rem;
+    margin: 0 3rem;
+}
+.cel {
+    text-align: center;
+}
+
+.cel span {
+    font-size: 1.5rem;
+}
