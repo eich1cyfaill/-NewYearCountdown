@@ -2,8 +2,10 @@
 
 body {
     margin: 0;
+    height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 253, 253);
     display: flex;
@@ -32,4 +34,23 @@ h1 {
 
 .cel span {
     font-size: 1.5rem;
+}
+
+@media (max-width: 425px){
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .b-text {
+    font-size: 1rem;
+    margin: 0 2rem;
+    }
+.cel {
+    text-align: center;
+}   
+
+.cel span {
+    font-size: 1rem;
+    }
+
 }
